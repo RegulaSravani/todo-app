@@ -1,0 +1,14 @@
+<ul id="demo">
+	<li>
+		Hello
+	</li>
+</ul>
+
+<script type="text/javascript">
+	var ele = document.createElement('li');
+	var tNode = document.createTextNode("Hi");
+	ele.appendChild(tNode);
+
+	var par = document.getElementById('demo');
+	par.appendChild(ele);
+</script>
